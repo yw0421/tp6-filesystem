@@ -1,0 +1,30 @@
+{
+    "name": "ndoth/tp6-filesystem",
+    "description": "thinkphp6 filesystem to oos,qiniucloud or cos ",
+    "homepage": "https://github.com/ndoth/tp6-filesystem",
+    "keywords": [
+        "thinkphp",
+        "thinkphp云储存"
+    ],
+    "authors": [
+        {
+            "name": "ndoth",
+            "email": "ndot@qq.com"
+       }
+    ],
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0",
+        "topthink/framework": "~6.0.0",
+        "qiniu/php-sdk": "^7.4",
+        "aliyuncs/oss-sdk-php": "^2.4",
+        "qcloud/cos-sdk-v5": "^2.5"
+
+    },
+    "autoload": {
+         "psr-4": {
+            "think\\": "src"
+        }
+    }
+}
