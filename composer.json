@@ -1,7 +1,6 @@
 {
-    "name": "ndoth/tp6-filesystem",
-    "description": "thinkphp6 filesystem to oos,qiniucloud or cos ",
-    "homepage": "https://github.com/ndoth/tp6-filesystem",
+    "name": "yw0421/tp6-filesystem",
+    "description": "tp6集成qiniu、oss、cos上传",
     "keywords": [
         "thinkphp",
         "thinkphp云储存"
